@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Base Apparel</title>
+</head>
+
+<body>
+
+  <div class="wrapper">
+
+    <div class="logo container">
+      <img src="images/logo.svg" alt="logo" width="110" height="25" />
+    </div>
+
+    <div class="banner">
+      <img srcset="images/hero-mobile.jpg 375w, images/hero-desktop.jpg 610w" sizes="(max-width: 767px) 375w, 610w"
+        src="images/hero-desktop.jpg" alt="" />
+    </div>
+
+    <div class="content container">
+      <h1><span class="title pink">We're</span><span class="title grey">coming</span><span
+          class="title grey">soon</span>
+      </h1>
+      <p class="text">Hello fellow shoppers! We're currently building our new fashion store. Add your email below to
+        stay up-to-date with announcements and our launch deals.</p>
+      <form>
+        <input class="email-input cta" type="email" placeholder="Email Address" required />
+        <div class="error error--img"><img src="/images/icon-error.svg" alt="" /></div>
+        <button class="submit-btn cta" type="submit"><img src="images/icon-arrow.svg" alt="" /></button>
+      </form>
+      <div class="error error--msg">Please provide a valid email</div>
+    </div>
+
+  </div>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
