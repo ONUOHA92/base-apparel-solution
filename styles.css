@@ -60,7 +60,7 @@ Main Styles
 .content .text {
   color: var(--desatpink);
   line-height: 1.5;
-  font-size: 14px;
+  font-size: calc(14px + 0.5vh);
 }
 
 form {
