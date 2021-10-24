@@ -51,5 +51,3 @@ Continued development could be further input validation (such as watching live i
 ## Author
 
 - Website - [Patricia Hurst](https://github.com/patricia-hurst)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
